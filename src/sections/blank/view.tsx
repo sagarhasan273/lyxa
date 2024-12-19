@@ -34,17 +34,21 @@ export function BlankView({ title = 'Blank' }: Props) {
             width: 50,
             color: 'white',
             position: 'relative',
+            top: 20,
+            right: 30,
+            bottom: 10,
+            left: 40,
           }}
         >
           <Box
             sx={{
               bgcolor: 'black',
-              height: 10,
-              width: 10,
               color: 'white',
-              position: 'relative',
-              bottom: 0,
-              right: 10,
+              position: 'absolute',
+              right: 2,
+              left: 2,
+              bottom: 2,
+              top: 2,
             }}
           >
             box 1
@@ -61,6 +65,7 @@ export function BlankView({ title = 'Blank' }: Props) {
             color: 'white',
             position: 'absolute',
             bottom: 0,
+            left: 10,
             right: 10,
           }}
         >
